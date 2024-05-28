@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Oct 19 10:33:16 2023
+# Process ID: 19072
+# Current directory: F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39640 F:\Jizukeshe\CDE\cpu132_gettrace\run_vivado\cpu132_gettrace\cpu132_gettrace.xpr
+# Log file: F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/vivado.log
+# Journal file: F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/Vivado/Vivado/2018.3/scripts/Vivado_init.tcl'
+start_gui
+open_project F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.xpr
+INFO: [Project 1-313] Project file moved from 'E:/nscscc2019/develop/trash/func_test_v0.03/cpu132_gettrace/run_vivado/cpu132_gettrace' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'clk_pll_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'data_ram_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'inst_ram_synth_1' not found
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.ip_user_files', nor could it be found using path 'E:/nscscc2019/develop/trash/func_test_v0.03/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.3/data/ip'.
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 996.449 ; gain = 376.762
+update_compile_order -fileset sources_1
+generate_target all [get_files F:/Jizukeshe/CDE/cpu132_gettrace/rtl/xilinx_ip/clk_pll/clk_pll.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_pll'...
+export_ip_user_files -of_objects [get_files F:/Jizukeshe/CDE/cpu132_gettrace/rtl/xilinx_ip/clk_pll/clk_pll.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files F:/Jizukeshe/CDE/cpu132_gettrace/rtl/xilinx_ip/clk_pll/clk_pll.xci] -directory F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.ip_user_files/sim_scripts -ip_user_files_dir F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.ip_user_files -ipstatic_source_dir F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.cache/compile_simlib/questa} {riviera=F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.cache/compile_simlib/riviera} {activehdl=F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files F:/Jizukeshe/CDE/cpu132_gettrace/rtl/xilinx_ip/data_ram/data_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'data_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'data_ram'...
+export_ip_user_files -of_objects [get_files F:/Jizukeshe/CDE/cpu132_gettrace/rtl/xilinx_ip/data_ram/data_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files F:/Jizukeshe/CDE/cpu132_gettrace/rtl/xilinx_ip/data_ram/data_ram.xci] -directory F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.ip_user_files/sim_scripts -ip_user_files_dir F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.ip_user_files -ipstatic_source_dir F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.cache/compile_simlib/questa} {riviera=F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.cache/compile_simlib/riviera} {activehdl=F:/Jizukeshe/CDE/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 19 10:45:13 2023...
